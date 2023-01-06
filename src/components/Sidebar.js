@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import gitHubLogo from '../images/github-mark-white.png'
-import linkedInLogo from '../images/LI-In-Bug.png'
+import linkedInLogo from '../images/icons8-linkedin-2-120.png'
 
 // Styles
 import './Sidebar.css'
@@ -14,8 +14,8 @@ function Sidebar() {
             <span>&#1180;</span>
             <p>Full Stack Developer</p>
           </div>
+          <hr style={{height: '10px', backgroundColor: '#BF7C34', margin: '0', border: 'none'}} />
         </Link>
-        <hr style={{height: '10px', backgroundColor: '#BF7C34', margin: '0', border: 'none'}} />
 
         <div className='nav-links'>
           <Link>
