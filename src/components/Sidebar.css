@@ -1,0 +1,65 @@
+.sidebar {
+    height: 100vh;
+    width: 150px;
+    background-color: #202B39;
+}
+
+.sidebar > a {
+    text-decoration: none;
+}
+
+.home {
+    background-color: #000;
+    height: 220px;
+    width: inherit;
+    color: #fff;
+
+    /* Centering the text */
+    text-align: center;
+}
+
+.home > span {
+    font-size: 125px;
+}
+
+.home > p {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.nav-links {
+    position: relative;
+    top: 30%;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-top: 1px solid #BF7C34;
+
+    /* Centering Links */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links > a:last-child {
+    border-bottom: 1px solid #BF7C34;
+}
+
+.external-links {
+    position: relative;
+    top: 50%;
+
+    /* Centering Links */
+    display: flex;
+    justify-content: center;
+}
+
+.external-links > a {
+    margin: 0 10px;
+}
+
+.external-links > a > img {
+    width: 25px;
+}
