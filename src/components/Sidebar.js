@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import gitHubLogo from '../images/github-mark-white.png'
 import linkedInLogo from '../images/icons8-linkedin-2-120.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 // Styles
 import './Sidebar.css'
 
@@ -10,7 +13,7 @@ function Sidebar() {
   return (
     <nav className='sidebar'>
         <Link to="/">
-          <div className="home">
+          <div className="home-button">
             <span>&#1180;</span>
             <p>Full Stack Developer</p>
           </div>
@@ -34,10 +37,10 @@ function Sidebar() {
 
         <div className="external-links">
           <a href="https://github.com/kovalen1618" target="_blank" rel="noopener noreferrer">
-            <img src={gitHubLogo} alt="" />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a href="https://www.linkedin.com/in/ethan-kovalenko-758b14208/" target="_blank" rel="noopener noreferrer">
-            <img src={linkedInLogo} alt="" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
     </nav>

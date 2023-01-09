@@ -7,13 +7,15 @@
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+
+    position: fixed;
 }
 
 .sidebar > a {
     text-decoration: none;
 }
 
-.home {
+.home-button {
     background-color: #000;
     height: 220px;
     width: inherit;
@@ -21,11 +23,11 @@
     text-align: center;
 }
 
-.home > span {
+.home-button > span {
     font-size: 125px;
 }
 
-.home > p {
+.home-button > p {
     font-size: 20px;
     margin: 0 10px;
 }
@@ -38,21 +40,32 @@
 
     display: flex;
     justify-content: center;
+
+    /* Animation */
+    transition: background-color 0.25s ease-in-out;
 }
 
 .nav-links > a:last-child {
     border-bottom: 1px solid #BF7C34;
 }
 
+.nav-links > a:hover {
+    background-color: #BF7C34;
+}
+
 .external-links {
     display: flex;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 .external-links > a {
-    padding: 0 10px 150px 10px;
+    font-size: 30px;
+    color: #fff;
+    padding: 0 10px;
+    transition: color 0.25s ease-in-out;
 }
 
-.external-links > a > img {
-    width: 25px;
+.external-links > a:hover {
+    color: #BF7C34;
 }
