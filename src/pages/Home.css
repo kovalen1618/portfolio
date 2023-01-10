@@ -6,14 +6,3 @@
     top: 50%;
     transform: translateY(-50%);
 }
-
-.cursor {
-    border-right: 1px solid;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}

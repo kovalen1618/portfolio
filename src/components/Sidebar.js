@@ -1,8 +1,5 @@
 import { Link } from 'react-router-dom'
 
-import gitHubLogo from '../images/github-mark-white.png'
-import linkedInLogo from '../images/icons8-linkedin-2-120.png'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
