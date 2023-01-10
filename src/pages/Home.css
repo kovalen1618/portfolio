@@ -1,0 +1,71 @@
+.Home {
+    padding-left: 250px;
+    color: #fff;
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.first-hero {
+    font-size: 35px;
+    margin: 10px 0 0 0;
+}
+
+.first-hero > span {
+    color: #BF7C34;
+}
+
+.second-hero {
+    font-size: 75px;
+    margin: 0;
+}
+
+.blinking-cursor {
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+.bookmark {
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    background-color: #7C190E;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 70px), 0% 100%, 0% 0%);
+}
+
+.lining {
+    width: 175px;
+    height: 575px;
+    margin: 0 auto;
+    background-color: #BF7C34;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 60px), 0% 100%, 0% 0%);
+}
+
+.inside {
+    width: 150px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #7C190E;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% calc(100% - 50px), 0% 100%, 0% 0%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside>span {
+    font-size: 45px;
+    writing-mode: vertical-lr;
+    color: #fff;
+    margin-bottom: 50px;
+}

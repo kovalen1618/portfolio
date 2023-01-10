@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-color: #1C3645;
+}
+
+.App {
+  height: 100vh;
+  position: relative;
+}
