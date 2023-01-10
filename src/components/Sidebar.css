@@ -9,6 +9,8 @@
     justify-content: space-between;
 
     position: fixed;
+
+    z-index: 1;
 }
 
 .sidebar > a {
@@ -17,14 +19,21 @@
 
 .home-button {
     background-color: #000;
-    height: 220px;
+    height: 200px;
     width: inherit;
     color: #fff;
     text-align: center;
+
+    transition: background-color 0.25s ease-in-out;
+}
+
+.home-button:hover {
+    background-color: #BF7C34;
 }
 
 .home-button > span {
-    font-size: 125px;
+    font-size: 120px;
+    
 }
 
 .home-button > p {
@@ -56,7 +65,7 @@
 .external-links {
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
 }
 
 .external-links > a {

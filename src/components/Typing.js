@@ -43,7 +43,7 @@ function Typing(props) {
       if (currentMessageIndex === props.messages.length) {
         setCurrentMessageIndex(0);
       } else {
-        setTimeout(typeCharacters, 200)
+        setTimeout(typeCharacters, 100)
       }
     }
     

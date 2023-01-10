@@ -12,13 +12,13 @@ function Sidebar() {
         <Link to="/">
           <div className="home-button">
             <span>&#1180;</span>
-            <p>Full Stack Developer</p>
+            <p>Software Developer</p>
           </div>
           <hr style={{height: '10px', backgroundColor: '#BF7C34', margin: '0', border: 'none'}} />
         </Link>
 
         <div className='nav-links'>
-          <Link>
+          <Link to="/about">
             <p>About</p>
           </Link>
           <Link>
