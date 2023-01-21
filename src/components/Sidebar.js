@@ -27,7 +27,7 @@ function Sidebar() {
           <Link>
             <p>Portfolio</p>
           </Link>
-          <Link>
+          <Link to="/contact">
             <p>Contact</p>
           </Link>
         </div>
