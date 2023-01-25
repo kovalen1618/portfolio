@@ -78,3 +78,7 @@
 .external-links > a:hover {
     color: #BF7C34;
 }
+
+.active {
+    background-color: #BF7C34;
+}
