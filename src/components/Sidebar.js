@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -7,6 +7,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './Sidebar.css'
 
 function Sidebar() {
+  const location = useLocation();
+
+
   return (
     <nav className='sidebar'>
         <Link to="/">
@@ -18,16 +21,16 @@ function Sidebar() {
         </Link>
 
         <div className='nav-links'>
-          <Link to="/about">
+          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
             <p>About</p>
           </Link>
-          <Link>
+          <Link to='/skills' className={location.pathname === '/skills' ? 'active' : ''}>
             <p>My Skills</p>
           </Link>
-          <Link>
+          <Link to='/portfolio' className={location.pathname === '/portfolio' ? 'active' : ''}>
             <p>Portfolio</p>
           </Link>
-          <Link>
+          <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
             <p>Contact</p>
           </Link>
         </div>
