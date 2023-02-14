@@ -21,14 +21,17 @@ function Sidebar() {
         </Link>
 
         <div className='nav-links'>
-          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
-            <p>About</p>
+          <Link to='/experience' className={location.pathname === '/experience' ? 'active' : ''}>
+            <p>Experience</p>
           </Link>
           <Link to='/skills' className={location.pathname === '/skills' ? 'active' : ''}>
-            <p>My Skills</p>
+            <p>Skills</p>
           </Link>
           <Link to='/portfolio' className={location.pathname === '/portfolio' ? 'active' : ''}>
             <p>Portfolio</p>
+          </Link>
+          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
+            <p>About</p>
           </Link>
           <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
             <p>Contact</p>

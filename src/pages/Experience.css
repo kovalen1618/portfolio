@@ -1,0 +1,33 @@
+.Experience {
+    padding-left: 250px;
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* .tabs {
+    width: fit-content;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+} */
+
+.tabs > button {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    /* margin: 5px 0 5px 5px; */
+    border-right: none;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #1C3645;
+}
+
+.tabs > :last-child {
+    border-right: 2px solid black;
+}
+
+.work {
+    margin-left: 30px;
+}
